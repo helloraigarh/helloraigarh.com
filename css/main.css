@@ -25,12 +25,12 @@ html {
  */
 
 ::-moz-selection {
-    background: #ffe691;
+    background: #b3d4fc;
     text-shadow: none;
 }
 
 ::selection {
-    background: #ffe691;
+    background: #b3d4fc;
     text-shadow: none;
 }
 
@@ -59,7 +59,7 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: center;
+    vertical-align: middle;
 }
 
 /*

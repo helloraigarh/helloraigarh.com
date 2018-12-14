@@ -30,10 +30,10 @@
     .top-nav-wrapper 			{position:fixed; width:100%; height:auto; z-index:9999; background-color: #002233;}
     .top-nav 		 			{max-width:960px; height:50px; text-align: left; font-size: 12pt; font-weight: 100;}
 
-    .logo-dvd					{float:left; padding-right: 30px;} 
-		.logo-dvd a 			{background:url(../images/mm-dvd-logo.png) 0 0 no-repeat; width: 250px; height: 50px;outline: none; display: block; }
-		.logo-dvd a:hover		{}
-		.logo-dvd a.active		{}
+    .logo-hr					{float:left; padding-right: 30px;} 
+		.logo-hr a 			{background:url(../images/mm-hr-logo.png) 0 0 no-repeat; width: 250px; height: 50px;outline: none; display: block; }
+		.logo-hr a:hover		{}
+		.logo-hr a.active		{}
 
 	.mm-a 						{float: left; padding: 0 10px 0 10px; overflow: hidden;}
 	    .mm-a ul		 		{float: left; width: 100%; list-style: none;}

@@ -27,7 +27,7 @@
 	a.active {text-decoration: none;color: #09c}
 
 /* TOP NAVIGATION style set */
-    .top-nav-wrapper 			{position:fixed; width:100%; height:auto; z-index:9999; background-color: #002233;}
+    .top-nav-wrapper 			{position:fixed; width:100%; height:auto; z-index:9999; background-color: #111;}
     .top-nav 		 			{max-width:960px; height:50px; text-align: left; font-size: 12pt; font-weight: 100;}
 
     .logo-hr					{float:left; padding-right: 30px;} 
@@ -38,7 +38,7 @@
 	.mm-a 						{float: left; padding: 0 10px 0 10px; overflow: hidden;}
 	    .mm-a ul		 		{float: left; width: 100%; list-style: none;}
 	    .mm-a ul li 		 	{float: left; height: 50px; line-height: 50px;}
-	    .mm-a ul li a			{float: left; text-decoration:none; display: inline-block; padding-right: 1.2em; color: #006699;}
+	    .mm-a ul li a			{float: left; text-decoration:none; display: inline-block; padding-right: 1.2em; color: #fff;}
 	    .mm-a ul li a:hover		{ color: #99bbdd;}
 	    .mm-a ul li a.active	{color: #ff0011; font-weight: 500;}
 
@@ -103,6 +103,7 @@
 /* wrapper */
 	.section-wrapper{background-color: #fafafa; padding: 40px 0 80px 0; }
 	.page-wrapper{background-color: #fafafa;}
+	.page-wrapper-home-top{background-color: #008c56;  background:url(../images/hr-web-landing-top.png) no-repeat left center; height: 720px;}
 
 	/* background for 2nd menu header */
 	.j-top 	{width:100%; padding: 0px 0px 0px 0px; height:auto; position:relative;overflow: hidden;z-index:1000;}
@@ -199,7 +200,7 @@
 		/* overlay*/
 		.j-album li a 				{opacity:1;display:block; height:auto; border-radius: 5px; position:relative; overflow:hidden;}
 		.j-album li a:hover 		{opacity:.80;}
-		.j-album li a img 			{max-width:100%; display: block; overflow:hidden; border-radius: 5px; }
+		.j-album li a img 			{max-width:100%; display: block; overflow:hidden; border-radius: 5px; } 
 		/* thumb hover overlay text */
 		.j-album li a span 			{float:left; opacity:1; position: relative; width: 100%; height: auto; padding: 15px 0px 15px 0px;color: #666; text-align: left; font-weight:300; font-size: 12px;}
 		.j-album li a:hover span 	{color: #111;}
